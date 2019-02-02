@@ -1,4 +1,0 @@
-# https://discuss.pytorch.org/t/undefined-symbol-when-import-lltm-cpp-extension/32627
-PKG_CPPFLAGS=-I/home/dani/libtorch/include -I/home/dani/libtorch/include/torch/csrc/api/include -D_GLIBCXX_USE_CXX11_ABI=0
-PKG_LIBS=-L/home/dani/libtorch/lib -Wl,-rpath,/home/dani/libtorch/lib -ltorch
-CXX_STD=CXX11
